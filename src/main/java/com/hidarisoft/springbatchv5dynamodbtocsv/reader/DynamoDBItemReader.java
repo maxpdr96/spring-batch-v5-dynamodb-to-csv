@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DynamoDBItemReader implements ItemReader<TestModel> {
 
-    private TestRepository testRepository;
+    private final TestRepository testRepository;
     private int currentRowIndex;
 
     public DynamoDBItemReader(TestRepository testRepository) {
