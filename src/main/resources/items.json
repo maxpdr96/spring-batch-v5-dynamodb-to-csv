@@ -1,0 +1,250 @@
+{
+  "test_table": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "64f34b2c67373397912093f4"},
+          "index": {"N": "0"},
+          "guid": {"S": "a04e6e45-9740-47b6-84ea-e758be816c54"},
+          "isActive": {"BOOL": true},
+          "balance": {"S": "$2,093.65"},
+          "picture": {"S": "http://placehold.it/32x32"},
+          "age": {"N": "38"},
+          "eyeColor": {"S": "blue"},
+          "name": {"S": "Collier Cross"},
+          "gender": {"S": "male"},
+          "company": {"S": "GINKOGENE"},
+          "email": {"S": "colliercross@ginkogene.com"},
+          "phone": {"S": "+1 (827) 487-3003"},
+          "address": {"S": "915 Willow Place, Falmouth, Michigan, 5497"},
+          "about": {"S": "Officia exercitation et consequat sit eiusmod eu enim labore. Ut ipsum do officia mollit sunt. Cupidatat non adipisicing laborum incididunt laboris."},
+          "registered": {"S": "2022-12-12T04:41:56 +03:00"},
+          "latitude": {"N": "86.117139"},
+          "longitude": {"N": "-46.04326"},
+          "tags": {"SS": ["laboris", "in", "esse", "qui", "excepteur", "et", "veniam"]},
+          "friends": {
+            "L": [
+              {
+                "M": {
+                  "id": {"N": "0"},
+                  "name": {"S": "Lara Stephenson"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "1"},
+                  "name": {"S": "Staci Molina"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "2"},
+                  "name": {"S": "Hopkins Banks"}
+                }
+              }
+            ]
+          },
+          "greeting": {"S": "Hello, Collier Cross! You have 7 unread messages."},
+          "favoriteFruit": {"S": "apple"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "64f34b2cbacf6d5137d697a6"},
+          "index": {"N": "1"},
+          "guid": {"S": "693622c9-ba37-4f04-8620-b2113a70f650"},
+          "isActive": {"BOOL": false},
+          "balance": {"S": "$2,889.52"},
+          "picture": {"S": "http://placehold.it/32x32"},
+          "age": {"N": "27"},
+          "eyeColor": {"S": "brown"},
+          "name": {"S": "Nolan Schultz"},
+          "gender": {"S": "male"},
+          "company": {"S": "UTARIAN"},
+          "email": {"S": "nolanschultz@utarian.com"},
+          "phone": {"S": "+1 (957) 565-2439"},
+          "address": {"S": "245 Mersereau Court, Deputy, North Dakota, 6056"},
+          "about": {"S": "Est duis ut esse anim magna irure. Nulla sint culpa incididunt officia sit eiusmod elit nostrud consequat velit consectetur ipsum ut. Veniam dolor Lorem magna sunt adipisicing mollit consectetur non Lorem ullamco id irure deserunt incididunt. Duis incididunt nostrud qui ipsum aliquip qui in commodo velit. Minim elit in aute amet excepteur. Nisi magna Lorem est do id anim amet cupidatat excepteur velit quis. Consequat dolor ea nisi eu labore."},
+          "registered": {"S": "2022-08-19T08:46:42 +03:00"},
+          "latitude": {"N": "-13.735097"},
+          "longitude": {"N": "-152.123326"},
+          "tags": {"SS": ["ea", "nostrud", "mollit", "excepteur", "id", "Lorem"]},
+          "friends": {
+            "L": [
+              {
+                "M": {
+                  "id": {"N": "0"},
+                  "name": {"S": "Neal Hammond"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "1"},
+                  "name": {"S": "Penny Waters"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "2"},
+                  "name": {"S": "Amanda Hays"}
+                }
+              }
+            ]
+          },
+          "greeting": {"S": "Hello, Nolan Schultz! You have 1 unread messages."},
+          "favoriteFruit": {"S": "apple"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "64f34b2ce72fbc5682ec1fe4"},
+          "index": {"N": "2"},
+          "guid": {"S": "348c152e-acfe-474d-a6e0-a82aae0d7c13"},
+          "isActive": {"BOOL": true},
+          "balance": {"S": "$1,019.91"},
+          "picture": {"S": "http://placehold.it/32x32"},
+          "age": {"N": "33"},
+          "eyeColor": {"S": "brown"},
+          "name": {"S": "Rebecca Schneider"},
+          "gender": {"S": "female"},
+          "company": {"S": "CONJURICA"},
+          "email": {"S": "rebeccaschneider@conjurica.com"},
+          "phone": {"S": "+1 (868) 446-2785"},
+          "address": {"S": "536 Fuller Place, Robbins, Massachusetts, 3146"},
+          "about": {"S": "Aliqua dolor proident exercitation voluptate nisi magna sit quis. Amet ad elit ea nisi elit. In sunt sunt fugiat fugiat elit sunt et. Minim nisi fugiat pariatur consectetur aute ea tempor veniam cupidatat commodo. Eu deserunt ea excepteur esse tempor. Enim dolore amet nisi id Lorem officia pariatur in. Excepteur nisi aliqua in incididunt."},
+          "registered": {"S": "2021-03-03T05:33:12 +03:00"},
+          "latitude": {"N": "-71.916781"},
+          "longitude": {"N": "77.783893"},
+          "tags": {"SS": ["dolore", "incididunt", "ex", "id", "reprehenderit"]},
+          "friends": {
+            "L": [
+              {
+                "M": {
+                  "id": {"N": "0"},
+                  "name": {"S": "Therese Moody"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "1"},
+                  "name": {"S": "Conley Valentine"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "2"},
+                  "name": {"S": "Middleton Salazar"}
+                }
+              }
+            ]
+          },
+          "greeting": {"S": "Hello, Rebecca Schneider! You have 3 unread messages."},
+          "favoriteFruit": {"S": "strawberry"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "64f34b2c868fbb1058bc1510"},
+          "index": {"N": "3"},
+          "guid": {"S": "7e5dd5cc-a8fc-42c8-8ab6-8d26229c0f64"},
+          "isActive": {"BOOL": true},
+          "balance": {"S": "$1,172.46"},
+          "picture": {"S": "http://placehold.it/32x32"},
+          "age": {"N": "31"},
+          "eyeColor": {"S": "blue"},
+          "name": {"S": "Cote Maddox"},
+          "gender": {"S": "male"},
+          "company": {"S": "PROTODYNE"},
+          "email": {"S": "cotemaddox@protodyne.com"},
+          "phone": {"S": "+1 (979) 549-2685"},
+          "address": {"S": "634 Fairview Place, Highland, Palau, 7665"},
+          "about": {"S": "Exercitation velit consectetur duis ipsum occaecat consectetur officia ea pariatur nostrud laboris irure officia nostrud. Nulla tempor do tempor reprehenderit fugiat nostrud exercitation aliquip exercitation duis esse. Amet tempor tempor exercitation non cillum. Fugiat anim eiusmod consectetur do reprehenderit est minim laborum magna consequat incididunt in labore."},
+          "registered": {"S": "2022-09-20T09:49:51 +03:00"},
+          "latitude": {"N": "29.599783"},
+          "longitude": {"N": "-44.803741"},
+          "tags": {"SS": ["Lorem", "duis", "est", "irure", "dolore", "ipsum", "veniam"]},
+          "friends": {
+            "L": [
+              {
+                "M": {
+                  "id": {"N": "0"},
+                  "name": {"S": "Short Carson"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "1"},
+                  "name": {"S": "Todd Conway"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "2"},
+                  "name": {"S": "Garrett Pate"}
+                }
+              }
+            ]
+          },
+          "greeting": {"S": "Hello, Cote Maddox! You have 6 unread messages."},
+          "favoriteFruit": {"S": "apple"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {"S": "64f34b2cd947d3410a3a4e17"},
+          "index": {"N": "4"},
+          "guid": {"S": "a204bd7f-bb06-4a26-81d3-e422d90a2d2f"},
+          "isActive": {"BOOL": false},
+          "balance": {"S": "$3,584.00"},
+          "picture": {"S": "http://placehold.it/32x32"},
+          "age": {"N": "28"},
+          "eyeColor": {"S": "blue"},
+          "name": {"S": "Baxter Kelly"},
+          "gender": {"S": "male"},
+          "company": {"S": "TRANSLINK"},
+          "email": {"S": "baxterkelly@translink.com"},
+          "phone": {"S": "+1 (839) 531-2905"},
+          "address": {"S": "525 Nevins Street, Boonville, Maine, 7142"},
+          "about": {"S": "Excepteur commodo laboris cupidatat officia magna nisi adipisicing fugiat et ex. Excepteur nisi mollit nulla irure occaecat sunt nulla adipisicing ea adipisicing. Nostrud minim culpa occaecat aliqua sint ad consectetur officia exercitation ea laboris adipisicing aliquip. Id ullamco officia mollit nulla."},
+          "registered": {"S": "2021-07-04T02:26:20 +03:00"},
+          "latitude": {"N": "30.252203"},
+          "longitude": {"N": "-141.224294"},
+          "tags": {"SS": ["duis", "sint", "dolore", "Lorem", "velit", "pariatur", "quis"]},
+          "friends": {
+            "L": [
+              {
+                "M": {
+                  "id": {"N": "0"},
+                  "name": {"S": "Cornelia Barlow"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "1"},
+                  "name": {"S": "Chapman Benton"}
+                }
+              },
+              {
+                "M": {
+                  "id": {"N": "2"},
+                  "name": {"S": "Espinoza Zimmerman"}
+                }
+              }
+            ]
+          },
+          "greeting": {"S": "Hello, Baxter Kelly! You have 3 unread messages."},
+          "favoriteFruit": {"S": "apple"}
+        }
+      }
+    }
+  ]
+}
+//aws dynamodb batch-write-item --request-items  file://items.json --endpoint-url http://localhost:4566

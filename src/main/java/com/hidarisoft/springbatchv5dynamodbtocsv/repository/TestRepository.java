@@ -18,7 +18,6 @@ public class TestRepository {
         //DynamoDBQueryExpression<TestModel> dynamoDBQueryExpression = new DynamoDBQueryExpression<TestModel>()
         //.withKeyConditionExpression("IdTest = :val")
         //.withExpressionAttributeValues(Map.of(":val", new AttributeValue().withS("1")));
-
         return dynamoDBMapper.scan(TestModel.class, new DynamoDBScanExpression());
     }
 }
